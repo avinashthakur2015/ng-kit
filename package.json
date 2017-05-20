@@ -1,6 +1,6 @@
 {
   "name": "ngkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/avinashthakur2015/ng-kit-plus.git"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
