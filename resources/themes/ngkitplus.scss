@@ -1,0 +1,29 @@
+@import 'ngkitplus.var.scss';
+@import './components/common';
+@import './components/inputtext';
+@import './components/checkbox';
+
+
+.ui-widget { 
+    font-family:  $fontFamily; 
+    font-size: $fontSize; 
+    
+    input, select, textarea, button {
+        font-family:  $fontFamily; 
+        font-size: $fontSize; 
+    }
+    
+    :active {
+        outline: none;
+    }
+}
+
+.ui-state-focus {
+    border-color: $stateFocusBorderColor;
+    background: $stateFocusBgColor;
+    color: $stateFocusTextColor;
+    
+    a {
+        color: $stateFocusTextColor;
+    }
+}

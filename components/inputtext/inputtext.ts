@@ -1,7 +1,10 @@
 
 import { NgModule, Directive } from '@angular/core'
 @Directive({
-    selector: '[gInputText]'
+    selector: '[gInputText]',
+    host: {
+        '[class.ui-inputtext]': 'true'
+    }
 })
 export class InputText {
 

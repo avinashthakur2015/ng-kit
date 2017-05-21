@@ -1,0 +1,12 @@
+@import '../ngkitplus.scss';
+@import '../ngkitplus.var.scss';
+
+$base-color:#1f89ce;
+
+.ui-inputtext {
+    &:focus{
+        outline: 0 none;
+        border-color: #c0c0c0;
+        box-shadow: 0px 0px 5px $base-color;
+    }
+}
