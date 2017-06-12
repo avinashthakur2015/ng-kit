@@ -13,8 +13,7 @@ export const CHECKBOX_VALUE_ACCESSOR: any = {
     template: `
         <div class="ui-checkbox ui-widget">
         	<div class="ui-helper-hidden-accessible">
-        		<input #cb type="checkbox" [name]="name" [value]="value" [checked]="checked" [disabled]="disabled" 
-                [ngClass]="{'ui-state-focus':focused}">
+        		<input #cb type="checkbox" [name]="name" [value]="value" [checked]="checked" [disabled]="disabled" [ngClass]="{'ui-state-focus':focused}">
         		</div>
         		<div class="ui-checkbox-box"></div>
         		<label class="ui-checkbox-label"></label>
@@ -54,7 +53,7 @@ export class Checkbox implements ControlValueAccessor {
 
 
 @NgModule({
-    imports: [CommonModule],
+    imports: [],
     exports: [],
     declarations: [Checkbox]
 })
