@@ -1,13 +1,13 @@
 
-import { NgModule, Directive } from '@angular/core'
+import { NgModule, Input, Directive } from '@angular/core'
 @Directive({
-    selector: '[gInputText]',
+    selector: '[ui-input]',
     host: {
         '[class.ui-inputtext]': 'true'
     }
 })
 export class InputText {
-
+    @Input('ui-input') input: any;
 }
 
 @NgModule({

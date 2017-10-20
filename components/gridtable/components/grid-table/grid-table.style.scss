@@ -1,0 +1,40 @@
+.ui-grid-table-ct{
+    left:0;
+    position: relative;
+    width: 100%;
+    display: table;
+    padding: 0;
+    .ui-grid-view{
+        position: relative;
+        .ui-grid-item-ct{
+            position: relative;
+            min-height: 1px;
+            .ui-grid-header{
+                font-weight: bold;
+                font-size: 0.8em;
+                background-color: #e4e2ed;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .ui-grid-item{
+                table-layout: fixed;
+                border-collapse: collapse;
+                width: 100%;
+                .ui-grid-row{
+                    .ui-grid-cell{
+                        .ui-grid-cell-inner{
+                            text-align: left;
+                            position: relative;
+                            padding: 7px 10px 6px 0px;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+                td{
+                    padding: 15px 25px;
+                    color:#666;
+                }
+            }
+        }
+    }
+}

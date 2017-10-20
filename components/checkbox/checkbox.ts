@@ -9,7 +9,7 @@ export const CHECKBOX_VALUE_ACCESSOR: any = {
 };
 
 @Component({
-    selector: 'g-checkbox',
+    selector: 'ui-checkbox',
     template: `
         <div class="ui-checkbox ui-widget">
         	<div class="ui-helper-hidden-accessible">

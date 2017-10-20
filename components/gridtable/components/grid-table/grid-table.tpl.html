@@ -1,0 +1,24 @@
+<div class="ui-grid-table-ct">
+    <div class="ui-grid-view">
+        <div class="ui-grid-item-ct">
+            <table class="ui-grid-header ui-grid-item">
+                <tbody>
+                    <tr>
+                        <td *ngFor="let column of columns">{{column.header}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="ui-grid-item" *ngFor="let row of dataset">
+                <tbody>
+                    <tr class="ui-grid-row">
+                        <td class="ui-grid-cell" *ngFor="let column of columns">
+                            <div class="ui-grid-cell-inner">
+                                <ui-body-template [data]="row" [template]="column.bodyTemplate"></ui-body-template>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
