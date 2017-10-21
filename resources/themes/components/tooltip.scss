@@ -1,0 +1,9 @@
+.ui-tooltip{
+    position: absolute;
+    color:white;
+    &.ui-tooltip-animate{
+        padding: 10px;
+        background: darken(#616161,0.9);
+        transition:all 0.2s ease-out;
+    }
+}
