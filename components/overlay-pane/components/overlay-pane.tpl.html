@@ -1,0 +1,8 @@
+<div #container class="ui-overlay ui-overlay-left ui-box-shadow" [ngClass]="{'ui-overlay-active':visible}" (click)="overlayClick($event)">
+    
+    <a [ngClass]="{'ui-icon-close ui-overlay-close ui-corner-all':true}" href="#" role="button" (click)="close($event)">
+            <span class="ui-icon-close"></span>
+    </a>
+
+    <ng-content></ng-content>
+</div>
